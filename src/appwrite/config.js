@@ -107,7 +107,7 @@ async deleteFile(fileId){
         
     }
 }
-async filePreview(fileId){
+async getFilePreview(fileId){
     try {
         return this.bucket.getFilePreview(
             conf.appwriteBucketId,
